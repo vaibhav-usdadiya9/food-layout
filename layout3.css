@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main{
+	max-width: 1400px;
+	margin: auto;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+}
+li{
+	display: inline-block;
+	font-size: 23px;
+	padding: 7px;
+	font-weight: 600;
+	margin-top: 4%;
+}
+.section{
+	background-image: url(img/vegetables-set-left-black-slate.jpg);
+	height: 500px;
+	width: 100%;
+	background-size: cover;
+}
+.head{
+	margin-right: 15%;
+	margin-top: 1%;
+}
+.center{
+	height: 300px;
+	width: 500px;
+	margin-left: 20%;
+	margin-top: 6%;
+	background-color: white;
+	opacity: 0.4;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.centerhead{
+	color:red;
+	font-size: 40px;
+
+}
+.centerbutton{
+	padding: 10px;
+	background-color: yellowgreen;
+	color: red;
+	border-radius: 20px;
+	border: none;
+	margin-top: 3%;
+	font-size: 15px;	
+}
+
+.middle{
+	height: 300px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.527);
+	display: flex;
+	align-items: center;
+	padding-left: 8%;
+}
+.middelhead{
+	font-size: 30px;
+	color: white;
+	font-weight: 600;
+}
+.middlep{
+	font-size: 25px;
+	color: rgba(255, 255, 255, 0.61);
+	margin-top: 2%;
+}
+.middleimg{
+	height: 200px;
+	width: 370px;
+	margin-left: 10%;
+}
+.card{
+	height: 250px;
+	width: 300px;
+	/* border: 1px solid black; */
+}
+/* .mainsection{
+	background-color:rgba(255, 255, 255, 0.048) ;
+	height: 400px;
+	width: 100%;
+	border: 2px solid black;
+	
+} */
+.section3{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	margin-top: 5%;
+	align-items: center;
+}
+.logo{
+	color: rgba(165, 42, 42, 0.918);
+}
+.section3head{
+	font-size: 29px;
+	margin-top: 5%;
+	color: red;
+}
+.section3p{
+	font-size: 20px;
+	margin-top: 4%;
+	color:rgb(171 58 58 / 99%);
+}
+.section4img{
+	height: 2000px;
+	width: 100%;
+	/* background-repeat: repeat-y; */
+}
+.secton4{
+position: relative;
+}
+.div4{
+	height: 254px;
+	width: 100%;
+	background-color: white;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	margin-top: 2%;
+	/* text-align: center; */
+	padding-top: 2%;
+}
+.secton4head{
+	font-size: 30px;
+	font-weight: 600;
+	font-family: sans-serif;
+	text-align: center;
+}
+.secton4p{
+	font-size: 22px;
+	margin-top: 10px;
+	font-family: sans-serif;
+	text-align: center;
+}
+.logo1{
+	margin-top: 1%;
+}
+.circlelogo{
+	margin-left: 45%;
+	padding: 10px;
+}
+.secton4p1{
+	font-size: 25px;
+	margin-top: 10px;
+	word-spacing: 20px;
+	text-align: center;
+}
+.innersection{
+	height: 400px;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+
+	margin-top: 10%;
+}
+.innersectionhead{
+	 padding-top: 1%;
+    font-size: 40px;
+    font-family: cursive;
+	text-align: center;
+}
+.innersectionp{
+	margin-top: -14px;
+    font-size: 42px;
+    font-family: system-ui;
+    color: brown;
+	text-transform: uppercase;
+	text-align: center;
+
+	
+}
+.innerlogo{
+	margin-left: 15%;
+}
+.maindivlogo{
+	display: grid;
+    grid-template-columns: auto auto;
+	gap: 20px;
+
+
+}
+.logo2{
+	margin-top: 15px;
+}
+.chickenhead{
+	margin-top: -53px;
+    margin-left: 57px;
+}
+.chickenp{
+	margin-top: -2px;
+    margin-left: 57px;
+    font-size: 19px;
+}
+.footer{
+	height: 400px;
+	width: 100%;
+	background-color:#2e6a6a;
+	margin-top: 33%;
+	color: white;
+}
+
+.footerhead{
+	text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    font-family: sans-serif;
+	
+
+}
+.mainfooter{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 20px;
+	justify-content: space-evenly;
+	margin-top: 2%;
+}
+.footerp{
+	font-size: 25px;
+}
+input{
+	font-size: 23px;
+	outline: none;
+}
